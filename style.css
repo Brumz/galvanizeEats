@@ -1,0 +1,50 @@
+header {
+  background-color: #3777dd;
+  color: white;
+  height: 50px;
+  padding-left: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+h5 {
+  color: white;
+}
+h1 {
+  color: white;
+  font-size: 55px;
+}
+.food {
+  background-image: url("media/restaurant-hero-image.jpg");
+  background-position: center;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.btn {
+  background-color: #d11044;
+  color: white;
+  display: flex;
+  align-self: center;
+}
+
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+
+}
+
+footer {
+  background-color: #3777dd;
+  color: white;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+
+}
