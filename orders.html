@@ -1,41 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <title>Order</title>
 </head>
+
 <body>
     <div>
         <header class="header">
-          <h2>Galvanize Eats</h2>
-          <a href="index.html"><h5>Home</h5></a>
+            <h2>Galvanize Eats</h2>
+            <a href="index.html"><h5>Home</h5></a>
         </header>
     </div>
-    <div class="info">
-        <div class="menuList">
-            <h3>Menu:</h3>
-        </div>
-        <h3>Name</h3>
-        <div class="name">
+    <div class="container row info">
+        <div class="left col-sm-6">
+            <div class="menuList">
+                <h3>Menu:</h3>
+                <select name="quantity"
+                id="quantity"></select>
+            </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter Name">
+                </div>
         
-        </div>
-        <h3>Phone Number</h3>
-        <div class="number">
+                <div class="form-group">
+                    <label for="number">Number:</label>
+                    <input type="text" class="form-control" placeholder="Cell Number">
+                </div>
+                
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <input type="text" class="form-control" placeholder="Address">
+                </div>
+                <div class="deliver">
+                    <button>DELIVER IT!</button>
+                </div> 
+            </form>
+        </div>    
         
+
+
+        <div class="right col-sm-4">
+            <div class="grandTotal">
+                <h4>Subtotal: </h4>
+                <h4>Tax: </h4>
+                <h2>Grand Total: </h2>
+            </div>
         </div>
-        <h3>Address</h3>
-        <div class="addy">
-        
-        </div>
-        <div class="deliver">
-            <button>DELIVER IT!</button>
-        </div>
-    </div>    
-    
+    </div>
+
+
 
 
 
@@ -54,4 +76,5 @@
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>

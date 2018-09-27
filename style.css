@@ -47,7 +47,7 @@ footer {
   height: 35px;
   display: flex;
   justify-content: center;
-
+  margin-top: 150px;
 }
 /* <-----indexPage------> */
 
@@ -56,6 +56,8 @@ footer {
 .menuList {
   border: solid 2px black;
   margin: 10px;
+  height: 250px;
+  width: 450px;
 }
 .name {
   border: solid 2px black;
@@ -79,9 +81,23 @@ footer {
   border: solid 2px black;
   margin: 10px;
   width: 250px;
+  display: flex;
+  justify-content: center;
 }
 .info {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-direction: row;
+  margin-left: 225px;
+}
+.grandTotal{
+  display: flex;
+  justify-content: flex-end;
+  border: solid 2px black;
   flex-direction: column;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 25px; 
+  height: 400px;
+
 }
