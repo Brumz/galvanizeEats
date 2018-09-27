@@ -1,3 +1,4 @@
+/* <----indexPage---> */
 header {
   background-color: #3777dd;
   color: white;
@@ -47,4 +48,40 @@ footer {
   display: flex;
   justify-content: center;
 
+}
+/* <-----indexPage------> */
+
+/* <-----orderPage------> */
+
+.menuList {
+  border: solid 2px black;
+  margin: 10px;
+}
+.name {
+  border: solid 2px black;
+  margin: 10px;
+  height: 35px;
+  width: 250px;
+}
+.number {
+  border: solid 2px black;
+  margin: 10px;
+  height: 35px;
+  width: 250px;
+}
+.addy {
+  border: solid 2px black;
+  margin: 10px;
+  height: 35px;
+  width: 250px;
+}
+.deliver {
+  border: solid 2px black;
+  margin: 10px;
+  width: 250px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
