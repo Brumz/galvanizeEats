@@ -47,7 +47,6 @@ footer {
   height: 35px;
   display: flex;
   justify-content: center;
-  margin-top: 150px;
 }
 /* <-----indexPage------> */
 
@@ -58,7 +57,31 @@ footer {
   margin: 10px;
   height: 250px;
   width: 450px;
+  display: flex;
+  flex-direction: column;
 }
+.cheeseB {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px, 10px;
+}
+.cheeseP {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hamB {
+  display: flex;
+  flex-wrap: wrap;
+}
+.pepP {
+  display: flex;
+  flex-wrap: wrap;
+}
+.suaP {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .name {
   border: solid 2px black;
   margin: 10px;
@@ -77,16 +100,20 @@ footer {
   height: 35px;
   width: 250px;
 }
-.deliver {
-  border: solid 2px black;
+#addItem {
   margin: 10px;
-  width: 250px;
+  width: 350px;
+  display: flex;
+  justify-content: center;
+}
+.deliver {
+  margin: 10px;
+  width: 450px;
   display: flex;
   justify-content: center;
 }
 .info {
   display: flex;
-  /* align-items: center; */
   flex-direction: row;
   margin-left: 225px;
 }
@@ -99,5 +126,15 @@ footer {
   margin-top: 10px;
   margin-left: 25px; 
   height: 400px;
-
 }
+
+.inputB {
+  width: 3em;
+}
+.footer2 {
+  background-color: #3777dd;
+  color: white;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  margin-top: 115px;
