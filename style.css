@@ -117,7 +117,11 @@ footer {
   flex-direction: row;
   margin-left: 225px;
 }
-.grandTotal{
+#cat {
+  font-style: oblique;
+  font-weight: bold;
+}
+.Totals {
   display: flex;
   justify-content: flex-end;
   border: solid 2px black;
@@ -129,7 +133,7 @@ footer {
 }
 
 .inputB {
-  width: 3em;
+  width: 2.3em;
 }
 .footer2 {
   background-color: #3777dd;
