@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
     <link rel="stylesheet" type="text/css" media="screen" href="style.css">
     <title>Order</title>
 </head>
-
 <body>
     <div>
         <header class="header">
@@ -23,29 +21,19 @@
             <div class="menuList">
                 <h3>Menu:</h3>
                 <div class="cheeseB" id="food">
-                    <input type="number" min="0" max="10" class="inputB" name="quantity" id="quantity">
-
-
+                    <input type="number" min="0" max="10" class="inputB" name="quantity">
                 </div>
                 <div class="cheeseP" id="food">
-                    <input type="number" min="0" max="10" class="inputB" name="quantity" id="quantity">
-
-
+                    <input type="number" min="0" max="10" class="inputB" name="quantity">
                 </div>
                 <div class="hamB" id="food">
-                    <input type="number" min="0" max="10" class="inputB" name="quantity" id="quantity">
-
-
+                    <input type="number" min="0" max="10" class="inputB" name="quantity">
                 </div>
                 <div class="pepP" id="food">
-                    <input type="number" min="0" max="10" class="inputB" name="quantity" id="quantity">
-
-
+                    <input type="number" min="0" max="10" class="inputB" name="quantity">
                 </div>
                 <div class="suaP" id="food">
-                    <input type="number" min="0" max="10" class="inputB" name=" quantity" id="quantity">
-
-
+                    <input type="number" min="0" max="10" class="inputB" name=" quantity">
                 </div>
             </div>
             <button type="submit" class=" btn btn-danger" id="addItem"> Add Item(s) </button>
@@ -69,19 +57,23 @@
                 </div>
             </form>
         </div>
-
-
-
         <div class="right col-sm-4">
             <div class="Totals">
+                <div class="cartItems"></div>
                 <div id="Sub">
-                    <h4 id="cat">Subtotal: </h4>
+                    <h2 id="cat">Subtotal:
+                        <p id="cats2"></p>
+                    </h2>
                 </div>
                 <div id="Tax">
-                    <h4>Tax: </h4>
+                    <h2 id="dog">Tax:
+                        <p id="dogs2"></p>
+                    </h2>
                 </div>
                 <div id="grandTotal">
-                    <h2>Grand Total: </h2>
+                    <h2 id="pet">Grand Total:
+                        <p id="pets"></p>
+                    </h2>
                 </div>
             </div>
         </div>

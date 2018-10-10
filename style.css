@@ -9,7 +9,6 @@ header {
   justify-content: space-between;
   padding-top: 10px;
 }
-
 h5 {
   color: white;
 }
@@ -26,21 +25,18 @@ h1 {
   align-items: center;
   margin-bottom: 5%;
 }
-
 .btn {
   background-color: #d11044;
   color: white;
   display: flex;
   align-self: center;
 }
-
 .details {
   display: flex;
   justify-content: space-around;
   align-content: space-around;
 
 }
-
 footer {
   background-color: #3777dd;
   color: white;
@@ -81,7 +77,6 @@ footer {
   display: flex;
   flex-wrap: wrap;
 }
-
 .name {
   border: solid 2px black;
   margin: 10px;
@@ -121,6 +116,14 @@ footer {
   font-style: oblique;
   font-weight: bold;
 }
+#dog {
+  font-style: oblique;
+  font-weight: bold;
+}
+#pet {
+  font-style: oblique;
+  font-weight: bold;
+}
 .Totals {
   display: flex;
   justify-content: flex-end;
@@ -129,9 +132,8 @@ footer {
   padding-top: 10px;
   margin-top: 10px;
   margin-left: 25px; 
-  height: 400px;
+  height: 500px;
 }
-
 .inputB {
   width: 2.3em;
 }
