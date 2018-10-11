@@ -1,3 +1,3 @@
 # Galvanize Eats
 
-got-eats.surge.sh
+eat-them-up.surge.sh
