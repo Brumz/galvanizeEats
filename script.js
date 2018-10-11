@@ -57,25 +57,25 @@ window.onload = function gat() {
         pet.innerHTML = "$" + Number((parseFloat(cat.innerHTML) + parseFloat(dog.innerHTML)).toFixed(2));
     })
     submitB.addEventListener("click", function () {
-        event.preventDefault()
-        var name = document.querySelector("#name")
-        var number = document.querySelector("#number")
-        var address = document.querySelector("#address")
-        var delivery = pet.innerHTML
+        event.preventDefault();
+        var name = document.querySelector("#name");
+        var number = document.querySelector("#number");
+        var address = document.querySelector("#address");
+        var delivery = pet.innerHTML;
         var data = {
             name: name,
             number: number,
             address: address,
             delivery: delivery
-        }
-        var postURL = "https://galvanize-eats-api.herokuapp.com/orders"
+        };
+        var postURL = "https://galvanize-eats-api.herokuapp.com/orders";
         var settings = {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(data)
-        }
+        };
         fetch(postURL, settings)
             .then(function (response) {
                 return response.text()
@@ -85,8 +85,8 @@ window.onload = function gat() {
             })
             .then(function () {
                 location.reload()
-            })
-    })
+            });
+    });
 
 
 }
